@@ -8,7 +8,7 @@ extern crate std;
 #[doc = " If you change the name of this file, make sure to update its references in runtime/src/lib.rs"]
 #[doc = " If you remove this file, you can remove those references"]
 #[doc = " For more guidance on Substrate FRAME, see the example pallet"]
-#[doc = " https://github.com/paritytech/substrate/blob/master/frame/example/src/lib.rs"]
+#[doc = " https://github.com/tetcoin/tetcore/blob/master/frame/example/src/lib.rs"]
 use frame_support::{decl_module, decl_storage, decl_event, decl_error, dispatch};
 use frame_system::{self as system, ensure_signed};
 #[cfg(test)]
