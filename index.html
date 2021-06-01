@@ -38,7 +38,24 @@
 	<script src="/js/scrollSpy.js"></script>
 	<link rel="stylesheet" href="/css/prism.css" />
 	<link rel="stylesheet" href="/css/main.css" />
-	<script src="/js/codetabs.js"></script>
+    <script src="/js/codetabs.js"></script>
+    
+    <!-- Vanta.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+    <script>
+        VANTA.WAVES({
+            el: "#home-hero",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x911
+        })
+    </script>
 </head>
 
 <body>
